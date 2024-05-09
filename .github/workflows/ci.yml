@@ -8,10 +8,10 @@ on:
 jobs:
   # Build job
   build:
+    runs-on: ubuntu-latest
     defaults:
       run:
         working-directory: docs
-    runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v3
