@@ -1,4 +1,4 @@
-name: Build & Deploy internal docs to github-pages
+name: Internal docs to github pages (Build & Deploy)
 
 on:
   push:
