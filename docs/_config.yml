@@ -16,4 +16,4 @@ just_the_docs:
       nav_fold: true
     back-modules:
       name: Back-end modules
-      nav_fold: false
+      nav_fold: true
