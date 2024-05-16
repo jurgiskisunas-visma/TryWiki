@@ -1,3 +1,19 @@
 title: Internal technical documentation
 description: 
 theme: just-the-docs
+
+collections:
+  front-modules:
+    permalink: "/:collection/:path/"
+    output: true
+  back-modules:
+    permalink: "/:collection/:path/"
+    output: true
+just_the_docs:
+  collections:
+    front-Modules:
+      name: Front-end modules
+      nav_fold: true
+    back-modules:
+      name: Back-end modules
+      nav_fold: false
